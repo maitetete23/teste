@@ -1,0 +1,141 @@
+body{
+   background-color: beige;   
+}
+.topo {
+    display: flex;
+    background-color: rgb(5, 92, 2);
+     width: 100%; /*largura*/
+     height: 130px; /*altura*/
+     align-items: center;
+     justify-content: flex-end;
+     position: fixed; /*para tirar o espaço entre a página e o topo*/
+     top: 0px;
+     left: 0px;
+     z-index: 1;
+     opacity: 80%;
+     border-radius: 5px;
+  }
+ 
+  .topo ul a :last-child {
+    color: #ffffff;
+    font-style: oblique;
+   
+  }
+  .topo ul li {
+    display: inline;
+    padding: 15px;
+  
+  }
+  #logo{
+    width: 300px;
+    height: 50px;
+    position: fixed;
+    left: 200px;
+    margin-top: 15px;
+    z-index: 1;
+    font-size: 60px;
+    color: #ffffff;
+    font-style:oblique ;
+    display: inline;
+  }
+  #logo2{
+    width: 180px;
+    height: 30px;
+    position: fixed;
+    left: 240px;
+    margin-top: 70px;
+    z-index: 1;
+    font-size: 20px;
+    color: #ffffff;
+    font-style:oblique ;
+
+  }
+  #ft{
+    width: 100%;
+    height: 500px;
+    position: absolute; /*para tirar o espaço entre a página e o topo*/
+    top : 0px;
+    right: 0px;
+    left: 0px;
+  }
+  #ft1{
+    width: 23%;
+    height: 250px;
+    position: absolute; /*para tirar o espaço entre a página e o topo*/
+    top: 600px;
+    right: 10px;
+    left: 550px;
+    z-index: none;
+    border-radius: 7px;
+
+  }
+  #ft2{
+    width: 23%;
+    height: 250px;
+    position: absolute; /*para tirar o espaço entre a página e o topo*/
+    top: 600px;
+    right: 10px;
+    left: 950px;
+    z-index: none;
+    border-radius: 7px;
+
+  }
+  #ft3{
+    width: 23%;
+    height: 250px;
+    position: absolute; /*para tirar o espaço entre a página e o topo*/
+    top: 600px;
+    right: 10px;
+    left: 150px;
+    z-index: none;
+    border-radius: 7px;
+
+  }
+  #ft4{
+    width: 23%;
+    height: 250px;
+    position: absolute; /*para tirar o espaço entre a página e o topo*/
+    top: 1000px;
+    right: 10px;
+    left: 950px;
+    z-index: none;
+    border-radius: 7px;
+
+  }
+  #ft5{
+    width: 23%;
+    height: 250px;
+    position: absolute; /*para tirar o espaço entre a página e o topo*/
+    top: 1000px;
+    right: 10px;
+    left: 550px;
+    z-index: none;
+    border-radius: 10px;
+
+  }
+  #ft6{
+    width: 23%;
+    height: 250px;
+    position: absolute; /*para tirar o espaço entre a página e o topo*/
+    top: 1000px;
+    right: 10px;
+    left: 150px;
+    z-index:none;
+    border-radius: 10px;
+
+  }
+
+  
+  
+   
+   
+
+ 
+ 
+    
+ 
+ 
+
+ 
+    
+
